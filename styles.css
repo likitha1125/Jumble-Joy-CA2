@@ -1,0 +1,57 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Signika+Negative&display=swap');
+
+
+body {
+    margin: 0;
+    padding: 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(241, 169, 216);
+    
+}
+
+.container {
+    text-align: center;
+    position: relative;
+}
+
+h1 {
+    font-size: 8em;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+button {
+    background-color:rgb(241, 169, 216);
+    font-size: 20px;
+    border-color: white;
+    color: white;
+    height: 8%;
+    width: 10%;
+    font-weight: bold;
+    position: absolute;
+    bottom: 30%;
+    left: 50%; 
+    transform: translateX(-50%); 
+    border-radius: 20px;
+
+}
+
+button:hover {
+    background-color:rgb(171, 108, 155); 
+}
+@media only screen and (max-width: 600px) {
+    h1 {
+        font-size: 3em; 
+    }
+
+    button {
+        width: 20%;
+        height: 10%; 
+    }
+}

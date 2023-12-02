@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Game page</title>
+  <link rel="stylesheet" href="game.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+
+<body>
+  
+  <h1 id="greeting">Hey, Good to see you</h1>
+  
+  <h1>Can you please correct me😭?</h1>
+
+  <div class="container">
+    <div class="content">
+      <p class="word"></p>
+      <div class="details">
+        <p class="hint">Hint: <span></span></p>
+        <p class="time">Time Left: <span><b>10</b>s</span></p>
+
+      </div>
+
+    
+      <div class="score-menu">
+        <span>Score: <b>0</b></span>
+      </div>
+
+      <div class="game-container" id="game-container">
+      </div>
+
+      <input type="text" spellcheck="false" placeholder="Enter a valid word">
+      <div class="buttons">
+        <button class="refresh-word">Refresh Word</button>
+        <button class="check-word">Check Word</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="word.js"></script>
+  <script src="game.js"></script>
+
+</html>
